@@ -1,0 +1,21 @@
+language: python
+python:
+    - "3.6"
+install:
+    - uname -a
+    - wget https://github.com/gohugoio/hugo/releases/download/v0.55.4/hugo_0.55.4_Linux-64bit.deb
+    - sudo dpkg -i hugo*.deb
+script:
+    - hugo --minify
+deploy:
+    provider: pages
+    skip_cleanup: true
+    github_token: $GITHUB_TOKEN
+    on:
+        branch: master
+    local_dir: public
+    repo: doufen-org/blog.doufen.org
+    fqdn: blog.doufen.org
+    target_branch: master
+    email: $GITHUB_EMAIL
+    name: $GITHUB_USERNAME

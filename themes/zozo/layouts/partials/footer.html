@@ -1,0 +1,16 @@
+<footer class="footer">
+  <div class="links">
+    <ul>
+      {{ range.Site.Menus.foot }}
+      <li>
+        <a href="{{ .URL | safeURL }}">{{ .Name }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+  <div class="footer_slogan">
+    <span>{{ .Site.Params.footerSlogan }}</span>
+  </div>
+</footer>
+
+
