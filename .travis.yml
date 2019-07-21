@@ -12,7 +12,7 @@ deploy:
     skip_cleanup: true
     github_token: $GITHUB_TOKEN
     on:
-        branch: master
+        branch: source
     local_dir: public
     repo: doufen-org/blog.doufen.org
     fqdn: blog.doufen.org
