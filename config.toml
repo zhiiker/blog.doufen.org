@@ -21,17 +21,16 @@ disqusShortname = ""                 # your discuss shortname
   weight = 1
   identifier = "doufen"
   url = "https://doufen.org"
-
 [[menu.main]]
   name = "博客"
   weight = 10
   identifier = "home"
   url = "/"
 [[menu.main]]
-  name = "归档"
+  name = "下载"
   weight = 20
-  identifier = "archive"
-  url = "/posts/"
+  identifier = "download"
+  url = "/download/"
 [[menu.main]]
   name = "分类"
   weight = 30
@@ -50,13 +49,19 @@ disqusShortname = ""                 # your discuss shortname
 
 [[menu.foot]]
   name = "隐私权政策"
-  weight = 1
+  weight = 10
   identifier = "privacy-policy"
   url = "/privacy-policy/"
 
 [[menu.foot]]
+  name = "归档"
+  weight = 20
+  identifier = "archive"
+  url = "/posts/"
+
+[[menu.foot]]
   name = "关于豆坟"
-  weight = 10
+  weight = 30
   identifier = "about"
   url = "/about/"
 
