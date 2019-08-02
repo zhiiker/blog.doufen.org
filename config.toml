@@ -30,7 +30,7 @@ disqusShortname = ""                 # your discuss shortname
   name = "下载"
   weight = 20
   identifier = "download"
-  url = "/download/"
+  url = "https://download.doufen.org/"
 [[menu.main]]
   name = "分类"
   weight = 30

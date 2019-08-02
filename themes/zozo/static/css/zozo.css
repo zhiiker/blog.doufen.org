@@ -444,24 +444,26 @@ hr {
 .markdown h4,
 .markdown h5,
 .markdown h6 {
-  margin: 2.5em 0 1.3em 0;
+  margin: 2em 0 1em 0;
   color: #000000;
 }
 
 .markdown h1 {
-  font-size: 1.35em;
+  font-size: 2em;
 }
 
 .markdown h2 {
-  font-size: 1.25em;
+  font-size: 1.6em;
 }
 
 .markdown h3 {
-  font-size: 1.15em;
+  font-size: 1.2em;
 }
 
-.markdown h4 {
-  font-size: 1.1em;
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+  font-size: 1em;
 }
 
 .markdown pre,
