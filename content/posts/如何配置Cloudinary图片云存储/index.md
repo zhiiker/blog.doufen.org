@@ -9,7 +9,7 @@ url: "/posts/how to upload images to cloudinary"
 
 ## 第一步，注册Cloudinary
 
-打开注册页面：https://cloudinary.com/users/register/free；
+打开注册页面：https://cloudinary.com/users/register/free ；
 
 ![1566547766054](1566547766054.png)
 
@@ -19,7 +19,7 @@ url: "/posts/how to upload images to cloudinary"
 
 ## 第二步，配置Cloudinary
 
-注册完成并登录后，进入设置页面：https://cloudinary.com/console/settings/upload；
+注册完成并登录后，进入设置页面：https://cloudinary.com/console/settings/upload ；
 
 ![1566549784338](1566549784338.png)
 
