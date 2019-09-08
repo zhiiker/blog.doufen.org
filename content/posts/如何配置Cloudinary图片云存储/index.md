@@ -51,7 +51,9 @@ url: "/posts/how to upload images to cloudinary"
 
 在豆伴`新建任务`的页面中，勾选`同步相册、日记、评论以及广播中的图片至 Cloudinary`，然后点击`新建`按钮。
 
-图片上传完成后，可以前往 https://cloudinary.com/console/media_library/folders/all/ 查看。每个账号的图片会保存在独立的文件夹下，并按照相册、日记、评论和广播四种类型按文件夹保存。
+图片上传完成后，可以前往 https://cloudinary.com/console/media_library/folders/all/ 查看。每个账号的图片会保存在独立的文件夹下，并按照相册、日记、评论、笔记和广播等几种类型按文件夹保存。
 
-![1566551396131](1566551396131.png)
+另外，可以在每个文件夹的操作菜单里，选择`Download`进行下载。
+
+![1567924288656](1567924288656.png)
 
